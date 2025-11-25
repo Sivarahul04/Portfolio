@@ -1,4 +1,4 @@
-![Logo](Profile.png)
+![Logo](Profile.PNG)
 
 # Siva Portfolio Showcase 💻
 

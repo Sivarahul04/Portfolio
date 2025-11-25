@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siva</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@500;700;800;900&family=Unbounded:wght@500;700;900&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="stayle.css"/>
+</head>
+<body data-theme="dark">
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-content">
+      <i class="fa-solid fa-laptop-code main-icon hidden"></i>
+      <h1 id="loading-text" class="hidden">MY PROFILE</h1>
+      <div class="sub-icons">
+        <i class="fa-brands fa-github hidden"></i>
+        <i class="fa-solid fa-code hidden"></i>
+        <i class="fa-solid fa-user hidden"></i>
+      </div>
+      <h2 id="designer-text" class="hidden">Designed by Siva</h2>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header-list">
+    <nav class="nav" aria-label="Primary">
+      <ul class="ul-list">
+        <li class="active">
+          <i class="fa-solid fa-house"></i>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <i class="fa-regular fa-address-card"></i>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <i class="fa-regular fa-folder-open"></i>
+          <a href="#project">Projects</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-code"></i>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <i class="fa-regular fa-envelope"></i>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle Menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <p class="home-p"><span class="home-s"></span>Open to Work</p>
+
+    <div class="home-container">
+      <div class="home-section">
+        <div class="info-home">
+          <h1>Hi, I'm Siva</h1>
+          <h3>Software Developer</h3>
+
+          <div class="info-p">
+            <pre class="intro-pre">
+A passionate Software Developer skilled in HTML, CSS, JavaScript,
+ReactJS, Java, Spring Boot, MySQL. I love building scalable web
+applications and crafting efficient backend systems that deliver great user experience.</pre>
+          </div>
+
+          <div class="info-p2">
+            <p><i class="fa-solid fa-location-dot"></i> Nagercoil</p>
+            <p><i class="fa-solid fa-briefcase"></i> Available Now</p>
+          </div>
+
+          <div class="btnn">
+            <button class="btn-home1"><i class="fa-solid fa-arrow-right"></i> Hire Me</button>
+            <button id="download-cv" class="btn-home2">
+  <i class="fa-solid fa-download"></i> Download CV
+</button>
+
+          </div>
+
+          <hr class="divider"/>
+
+          <div class="follow">
+            <p class="followw">Follow me:</p>
+            <ul>
+              <li><a href="https://github.com/Sivarahul04" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/siva-m-505420357/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/siva_.x._/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <img class="hero-img" src="images/img2.jpg" alt="Profile"/>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2 class="sec-title">ABOUT ME</h2>
+
+    <div class="about-content">
+      <p>
+        I'm a <strong>creative Front-End Developer</strong> passionate about building modern and responsive web experiences.
+        My journey began with a love for design and evolved into a deep curiosity for how the web works — combining
+        logic with creativity to bring ideas to life.
+      </p>
+      <p>
+        When I'm not coding, I enjoy learning new technologies, improving my projects, and exploring better ways to make the web faster and more engaging.
+        I believe in continuous learning, attention to detail, and the power of clean, meaningful design.
+      </p>
+
+      <h3 class="sub-title">What Drives Me</h3>
+
+      <div class="card-grid">
+        <!-- LANGUAGES BUTTON -->
+        <button class="c1 btn-toggle" aria-expanded="false" aria-controls="panel-langs">
+          <h4><i class="fa-solid fa-code"></i> Languages</h4>
+        </button>
+
+        <!-- EDUCATION BUTTON -->
+        <button class="c1 btn-toggle" aria-expanded="false" aria-controls="panel-edu">
+          <h4><i class="fa-solid fa-graduation-cap"></i> Education</h4>
+        </button>
+
+        <!-- PROJECTS BUTTON -->
+        <button class="c1 btn-toggle" aria-expanded="false" aria-controls="panel-projects">
+          <h4><i class="fa-solid fa-folder-open"></i> Projects</h4>
+        </button>
+      </div>
+
+      <!-- Panels -->
+      <div id="panel-langs" class="panel" hidden>
+        <p class="panel-title">Programming Languages & Tools</p>
+        <div class="lang-cards">
+          <div class="lang-card">
+            <img src="images/html.png" alt="HTML"/>
+            <span>HTML</span>
+          </div>
+          <div class="lang-card">
+            <img src="images/css-3.png" alt="CSS"/>
+            <span>CSS</span>
+          </div>
+          <div class="lang-card">
+            <img src="images/java-script.png" alt="JavaScript"/>
+            <span>JavaScript</span>
+          </div>
+          <div class="lang-card">
+            <img src="images/java.png" alt="Java"/>
+            <span>Java</span>
+          </div>
+          <div class="lang-card">
+            <img src="images/react.png" alt="ReactJS"/>
+            <span>ReactJS</span>
+          </div>
+          <div class="lang-card">
+            <img src="images/spring.webp" alt="Spring Boot"/>
+            <span>Spring Boot</span>
+          </div>
+          <div class="lang-card">
+            <img src="images/mysql.png" alt="MySQL"/>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ Correct, single unique panel for Education -->
+      <div id="panel-edu" class="panel" hidden>
+        <p class="panel-title">Education</p>
+            <div class="edu-head">
+              <span class="edu-degree">B.Sc in Computer Science</span>
+              <span class="edu-year">2022–2025</span>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-school">S.T. Hindu College</span>
+              <span class="edu-score">79.3%</span>
+            </div>
+            <div class="edu-bar" aria-hidden="true">
+              <span style="width:79.3%"></span>
+            </div>
+
+            <div class="edu-head">
+              <span class="edu-degree">HSC (Computer Science)</span>
+              <span class="edu-year">2021-2022</span>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-school">S.M.R.V. Higher Secondary School</span>
+              <span class="edu-score">89.5%</span>
+            </div>
+            <div class="edu-bar" aria-hidden="true">
+              <span style="width:89.5%"></span>
+            </div>
+            <div class="edu-head">
+              <span class="edu-degree">SSLC</span>
+              <span class="edu-year">2019-2020</span>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-school">S.M.R.V. Higher Secondary School</span>
+              <span class="edu-score">94.4%</span>
+            </div>
+            <div class="edu-bar" aria-hidden="true">
+              <span style="width:94.4%"></span>
+            </div>
+      </div>
+
+      <!-- Projects panel -->
+      <div id="panel-projects" class="panel" hidden>
+        <p class="panel-title">Highlighted Projects</p>
+        <ul style="margin:0; padding-left:16px; color:var(--muted)">
+          <li>Resident Management System</li>
+          <li>Portfolio Website</li>
+          <li>CGPA Calculator</li>
+          <li>Student's Mark Analytics System</li>
+          <li>Snake Game</li>
+          <li>Task Manager</li>
+        </ul>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="project">
+    <p class="sec-kicker">PROJECTS</p>
+    <h2 class="sec-title">Featured Work</h2>
+    <hr class="section-hr"/>
+
+    <div class="info-pro">
+      <p>A showcase of my recent projects demonstrating expertise in full-stack</p>
+      <p>development, modern frameworks, and creative problem-solving.</p>
+    </div>
+
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="images/RMS.png" alt="E-Commerce Website"/>
+        <h3>Resident Management System</h3>
+        <p>The Resident Service Management System provides a centralized digital platform for residents to report, track, and resolve service-related issues efficiently</p>
+        <div class="skills">
+          <a href="#">React JS</a><a href="#">Spring Boot</a><a href="#">MySQL</a>
+        </div>
+        <div class="btns">
+          <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/Portfolio.png" alt="Portfolio Website"/>
+        <h3>Portfolio Website</h3>
+        <p>The Portfolio Website showcases personal projects, skills, and achievements through an interactive and visually appealing digital platform.</p>
+        <div class="skills">
+          <a href="#">HTML</a><a href="#">CSS</a><a href="#">JavaScript</a>
+        </div>
+        <div class="btns">
+          <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/CGPA.png" alt="Weather App"/>
+        <h3>CGPA Calculator</h3>
+        <p>The CGPA Calculator is a system designed to accurately compute student's cumulative grade point averages, simplifying academic performance evaluation.</p>
+        <div class="skills">
+          <a href="#">React JS</a><a href="#">Spring Boot</a><a href="#">MySQL</a>
+        </div>
+        <div class="btns">
+          <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/Student.webp" alt="Blog Website"/>
+        <h3>Student Grading System</h3>
+        <p>The Student Grading System automates the process of evaluating, calculating, and managing student grades to ensure accuracy and efficiency in academic assessment.</p>
+        <div class="skills">
+          <a href="#">HTML</a><a href="#">Tailwind</a><a href="#">JavaScript</a>
+        </div>
+        <div class="btns">
+          <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/Snake.webp" alt="Game Landing Page"/>
+        <h3>Snake Game</h3>
+        <p>The Snake Game is an interactive arcade-style application where players control a growing snake to collect food while avoiding collisions, enhancing focus and coordination skills.</p>
+        <div class="skills">
+          <a href="#">HTML</a><a href="#">CSS</a><a href="#">GSAP</a>
+        </div>
+        <div class="btns">
+          <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/Task.webp" alt="Task Manager"/>
+        <h3>Task Manager</h3>
+        <p>The Task Manager is a productivity tool designed to organize, track, and prioritize tasks efficiently, helping users manage time and workload effectively.</p>
+        <div class="skills">
+          <a href="#">HTML</a><a href="#">CSS</a><a href="#">JS</a>
+        </div>
+        <div class="btns">
+          <a href="#" class="btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <p class="sec-kicker">SERVICES</p>
+    <h2 class="sec-title">Our Features & Services</h2>
+    <hr class="section-hr"/>
+
+    <div class="services-container">
+      <div class="service-card">
+        <img src="images/web.svg" alt="Web Development"/>
+        <h3>Web Development</h3>
+        <p>Skilled in designing and building responsive, user-friendly websites using modern technologies like HTML, CSS, JavaScript, and frameworks such as React. Experienced in creating dynamic web applications with clean UI/UX, optimized performance, and seamless functionality across devices.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/app.svg" alt="App Development"/>
+        <h3>App Development</h3>
+        <p>Experienced in developing robust, scalable, and secure applications using Java and Spring Boot. Skilled in building RESTful APIs, integrating databases, and implementing backend logic to deliver efficient, high-performance solutions with clean architecture and modular design.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/dm.svg" alt="Digital Marketing"/>
+        <h3>UI/UX Design</h3>
+        <p>Focused on creating intuitive, user-centered interfaces that enhance usability and engagement. Skilled in wireframing, prototyping, and conducting user research to design visually appealing and seamless digital experiences.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/seo.svg" alt="Email Marketing"/>
+        <h3>Email Marketing</h3>
+        <p>Skilled in designing, automating, and analyzing email campaigns to boost engagement and conversions. Experienced in creating personalized content, managing subscriber lists, and using analytics to optimize open and click-through rates..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <p class="sec-kicker">CONTACT</p>
+    <h2 class="sec-title">Get in Touch with Us</h2>
+
+    <div class="contact-content">
+      <div class="contact-info slide-in-left">
+        <p>I'm always open to discuss exciting projects and new opportunities. Let's collaborate!</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i><span>sivarahul56@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i><span>+91 63699 83681</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i><span>Kanniyakumari, Nagercoil</span>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Saboo24" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/amine-hamzaoui-a2453a35b" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/213554139526" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form slide-in-right">
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required name="user_name"/>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required name="user_email"/>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-send">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <h2 class="footer-logo">Siva</h2>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li><li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="https://github.com/Saboo24" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/amine-hamzaoui-a2453a35b" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://wa.me/213554139526" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Siva. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,8 +1,8 @@
-![Logo](cp.png)
+![Logo](Profile.png)
 
-# Amine Portfolio Showcase 💻
+# Siva Portfolio Showcase 💻
 
-Welcome to **Amine's Portfolio Showcase**!  
+Welcome to **Siva's Portfolio Showcase**!  
 A modern **portfolio website** designed to showcase projects, skills, and personal work using **HTML, CSS, and JavaScript**.  
 It is fully **responsive**, interactive, and visually appealing across desktop, tablet, and mobile devices.
 
@@ -60,11 +60,11 @@ This project is licensed under the terms described in the [LICENSE](LICENSE) fil
 
 ## 📬 Contact
 
-- Email: aminehamzaoui1925@gmail.com   
-- Location: Boumerdès, Algeria  
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-amine-hamzaoui-a2453a35b/)  
-- GitHub: [GitHub](https://github.com/Saboo24)  
-- Instagram: [Instagram](https://www.instagram.com/a__m.i.n__e/?utm_source=ig_web_button_share_sheet)
+- Email: sivarahul56@gmail.com   
+- Location: Nagercoil  
+- LinkedIn: [LinkedIn](www.linkedin.com/in/sivarahul)  
+- GitHub: [GitHub](https://github.com/Sivarahul04)  
+- Instagram: [Instagram](https://www.instagram.com/siva_.x._/)
 
 ---
 
@@ -72,4 +72,4 @@ Made with ❤️ by **Amine Hamzaoui**
 
 
 ```bash
-git clone https://github.com/Saboo24/portfolio-showcase.git
+git clone https://github.com/Sivarahul04/Potfolio.git
